@@ -105,7 +105,7 @@
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://wkq87.github.io/blog/2019/04/25/Hexo推送到github-page后没有theme/images/Hexo/本地预览效果图.png">
 <meta property="og:image" content="https://wkq87.github.io/blog/2019/04/25/Hexo推送到github-page后没有theme/images/Hexo/github预览效果图.png">
-<meta property="og:updated_time" content="2019-04-25T04:13:39.596Z">
+<meta property="og:updated_time" content="2019-04-25T04:15:46.640Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
 <meta name="twitter:description" content="Hexo推送到github-page后没有theme终于把环境搭建好了，但是当把环境部署到github page上后，发现页面没有theme，但是我检查了确定是配置了theme的。  github链接上的预览图没有样式  没有样式不对。 检查了_config.yml文件 theme: next 这是我新下的一个theme主题，工程没问题。 然后就一直找问题在哪儿，最后找到答案是在_config.y">
@@ -335,7 +335,7 @@
                 
               
 
-              <time title="Erstellt: 2019-04-25 11:44:08 / Geändert am: 12:13:39" itemprop="dateCreated datePublished" datetime="2019-04-25T11:44:08+08:00">2019-04-25</time>
+              <time title="Erstellt: 2019-04-25 11:44:08 / Geändert am: 12:15:46" itemprop="dateCreated datePublished" datetime="2019-04-25T11:44:08+08:00">2019-04-25</time>
             
 
             
@@ -383,10 +383,11 @@
 <p><code>theme: next</code></p>
 <p>这是我新下的一个theme主题，工程没问题。</p>
 <p>然后就一直找问题在哪儿，最后找到答案是在_config.yml文件中</p>
-<p>`# URL</p>
-<h2 id="If-your-site-is-put-in-a-subdirectory-set-url-as-‘http-yoursite-com-child-39-and-root-as-‘-child-‘"><a href="#If-your-site-is-put-in-a-subdirectory-set-url-as-‘http-yoursite-com-child-39-and-root-as-‘-child-‘" class="headerlink" title="If your site is put in a subdirectory, set url as ‘http://yoursite.com/child&#39; and root as ‘/child/‘"></a>If your site is put in a subdirectory, set url as ‘<a href="http://yoursite.com/child&#39;" target="_blank" rel="noopener">http://yoursite.com/child&#39;</a> and root as ‘/child/‘</h2><p>url: <a href="https://wkq87.github.io/blog">https://wkq87.github.io/blog</a><br>root: /blog/<br>permalink: :year/:month/:day/:title/<br>permalink_defaults:`</p>
-<p><strong>这个url和root两个字段一定要配置</strong></p>
-<p><a href="https://hexo.io/zh-cn/docs/configuration" target="_blank" rel="noopener">参考链接</a></p>
+<p><code>url: https://wkq87.github.io/blog
+root: /blog/
+permalink: :year/:month/:day/:title/
+permalink_defaults:</code></p>
+<p><strong>这个url和root两个字段一定要配置</strong><a href="https://hexo.io/zh-cn/docs/configuration" target="_blank" rel="noopener">如何配置</a></p>
 
       
     </div>
@@ -520,7 +521,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo推送到github-page后没有theme"><span class="nav-number">1.</span> <span class="nav-text">Hexo推送到github-page后没有theme</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#If-your-site-is-put-in-a-subdirectory-set-url-as-‘http-yoursite-com-child-39-and-root-as-‘-child-‘"><span class="nav-number">1.1.</span> <span class="nav-text">If your site is put in a subdirectory, set url as ‘http://yoursite.com/child&#39; and root as ‘/child/‘</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo推送到github-page后没有theme"><span class="nav-number">1.</span> <span class="nav-text">Hexo推送到github-page后没有theme</span></a></li></ol></div>
             
 
           </div>
